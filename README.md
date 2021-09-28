@@ -9,7 +9,7 @@ Simple table:
 
 ```hcl
 module "users" {
-  source = "git@github.com:com:kuffel/aws-dynamodb-table.git"
+  source = "git@github.com:kuffel/aws-dynamodb-table.git"
   table_name = "users"
   table_hash_key = "uuid"
   table_hash_key_type = "S"
@@ -20,7 +20,7 @@ Table with secondary indexes:
 
 ```hcl
 module "users" {
-  source = "git@github.com:com:kuffel/aws-dynamodb-table.git"
+  source = "git@github.com:kuffel/aws-dynamodb-table.git"
 
   table_name = "dev-users"
   table_hash_key = "uuid"
